@@ -1,0 +1,30 @@
+{
+  "name": "@bananas-global/slides-kit",
+  "version": "0.1.0",
+  "description": "Brand-aware HTML presentations. One kit, any brand.",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "slides-kit": "bin/slides-kit.mjs"
+  },
+  "exports": "./lib/build.mjs",
+  "files": [
+    "bin",
+    "lib",
+    "assets",
+    "examples",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test",
+    "example": "node bin/slides-kit.mjs build examples/deck.json -o dist/example.html",
+    "check": "npm test && npm run example && npm pack --dry-run"
+  },
+  "devDependencies": {
+    "playwright": "^1.55.0"
+  }
+}

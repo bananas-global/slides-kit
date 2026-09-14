@@ -1,0 +1,20 @@
+
+  <section class="page" id="s{{n}}"
+           aria-label="Slide {{n}} of {{total}}: {{label}}" role="group" aria-roledescription="slide">
+    <div class="stage">
+      <div class="slide {{surface}} {{template}}">
+{{content}}
+        <aside class="notes" hidden aria-label="Speaker notes"><p class="footnote">{{notes}}</p></aside>
+        <footer class="deck-footer">
+          <p class="df-meta"><span class="df-deck">{{DECK_TITLE}}</span> <span class="df-sep">&#183;</span> <span class="df-date">{{DECK_DATE}}</span></p>
+          <p class="df-num counter" aria-hidden="true">{{nn}} / {{tt}}</p>
+        </footer>
+      </div>
+      <nav class="controls" aria-label="Slide {{n}} of {{total}} — deck navigation">
+        <button type="button" class="ctl" data-nav="prev" aria-label="Previous slide">&#8592;</button>
+        <p class="counter" aria-live="polite">{{nn}} / {{tt}}</p>
+        <button type="button" class="ctl" data-nav="next" aria-label="Next slide">&#8594;</button>
+        <button type="button" class="ctl" data-print aria-label="Download as PDF" title="Save as PDF (print dialog)"><svg class="ico" aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" x2="12" y1="15" y2="3"/></svg></button>
+      </nav>
+    </div>
+  </section>

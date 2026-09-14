@@ -1,0 +1,17 @@
+{{head}}
+        <div class="spacer"></div>
+        <div class="li-grid">
+          <ul class="li-items">
+<!-- item:start -->
+            <li class="li-item"><h3 class="li-t">{{item.title}}</h3><p class="li-b">{{item.body}}</p></li>
+<!-- item:end -->
+          </ul>
+          <figure class="li-figure" style="margin:0;">
+            <div class="li-ring">
+              <svg class="li-ring-stroke" viewBox="0 0 100 100" aria-hidden="true" focusable="false" preserveAspectRatio="none"><circle cx="50" cy="50" r="49.5" fill="none" stroke="currentColor" stroke-width="0.4125" stroke-dasharray="1.65 1.375" stroke-linecap="round"/></svg>
+              <span class="ph li-photo"><img src="{{image}}" alt="{{alt}}"></span>
+              <span class="li-badge"><svg class="ico" role="img" aria-label="{{badgeLabel}}" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">{{badgeGlyph}}</svg></span>
+            </div>
+          </figure>
+        </div>
+        <div class="spacer"></div>

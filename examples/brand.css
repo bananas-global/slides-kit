@@ -1,0 +1,10 @@
+/* Neutral demonstration tokens. For a client, consume its generated Brand DNA brand.css. */
+:root {
+  --brand-signal:#ffca0d; --brand-accent:#1b4af3;
+  --brand-paper:#fffdf4; --brand-ink:#201c10; --brand-border:#c8c1a6;
+  --brand-success:#238342; --brand-warning:#a45b00; --brand-error:#b82350;
+  --brand-font-heading:Arial,sans-serif; --brand-font-body:Arial,sans-serif;
+  --brand-font-utility:monospace; --brand-heading-weight:700; --brand-body-weight:400;
+  --brand-radius:0px; --brand-button-radius:0px;
+  --brand-shadow-md:none; --brand-shadow-lg:none;
+}

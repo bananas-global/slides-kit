@@ -1,0 +1,24 @@
+{{head}}
+        <div class="spacer"></div>
+        <ul class="cards cards--n{{count}}">
+<!-- item:start -->
+          <li class="card card--image">
+            <div class="card-text">
+              <p class="card-e">{{item.eyebrow}}</p>
+              <h3 class="card-t">{{item.title}}</h3>
+              <p class="card-b">{{item.body}}</p>
+            </div>
+            <span class="ph card-photo"><img src="{{item.image}}" alt="{{item.alt}}"></span>
+          </li>
+<!-- item:end -->
+        </ul>
+        <div class="spacer"></div>
+<!-- Placeholder card — same 300px photo box, no .ph wrapper (nothing to veil):
+          <li class="card card--image">
+            <div class="card-text">
+              <p class="card-e">Direction 03</p>
+              <h3 class="card-t confirm">[confirm: title]</h3>
+              <p class="card-b confirm">[confirm: description]</p>
+            </div>
+            <span class="card-photo card-photo--empty"><span class="card-ph confirm">[confirm: photograph]</span></span>
+          </li>                                                            -->

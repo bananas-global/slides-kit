@@ -1,0 +1,16 @@
+{
+  "title": "One kit. Any brand.",
+  "date": "Slides Kit / Demo",
+  "brand": { "name": "Slides Kit", "css": "brand.css" },
+  "slides": [
+    { "template": "cover", "surface": "s-signal", "slots": { "title": "One kit. Any brand." } },
+    { "template": "callout", "slots": { "eyebrow": "The idea", "statement": "Your brand sets the identity. Your story sets the direction." } },
+    { "template": "sequence", "slots": { "title": "From brand to presentation", "items": [
+      { "title": "Connect", "body": "Use your Brand DNA stylesheet." },
+      { "title": "Compose", "body": "Choose layouts and add your content." },
+      { "title": "Present", "body": "Open the HTML or print a PDF." }
+    ] } },
+    { "template": "chart", "slots": { "title": "Make the difference visible", "spec": { "type": "bars", "title": "Illustrative comparison", "unit": "points", "period": "Demo", "source": "Fictional demonstration data", "data": [{ "label": "Before", "value": 30 },{ "label": "After", "value": 75 }] } } },
+    { "template": "cover", "surface": "s-ink", "slots": { "title": "Make room for the story." } }
+  ]
+}
