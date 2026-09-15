@@ -122,3 +122,9 @@ Contributions are welcome. Keep brand identity out of the engine, use English fo
 ## License
 
 MIT. Logos, photographs, fonts and other brand assets supplied by consumers remain subject to their respective licenses.
+
+## Structured diagrams and tables (0.2)
+
+`diagram` accepts `slots.diagramSpec` with `label`, an optional `height` (default 600), `nodes` and `edges`. The coordinate space is 1800 wide. A node has a unique `id`, `x`, `y`, `w`, `h`, `title` (string or lines), optional `body` (lines), and `tone` (`default`, `signal`, `accent`, `outline`). Edges contain a `points` array of `[x,y]` coordinates and an optional label with `labelX`/`labelY`. Geometry is explicit so an author can preserve relationships without relying on automatic graph layout. Labels are escaped; diagrams remain vector graphics in PDF.
+
+`table` accepts `slots.tableSpec` with `headers` and `rows` of equal-length arrays. Both layouts support `title`, `eyebrow`, `lede`, and `note`. A slide's optional `source` is now printed above the footer. Covers also accept `subtitle`.
